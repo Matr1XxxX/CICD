@@ -13,7 +13,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Build stage'
-                sh './hello.sh'
+                sh './hello.sh'}
             }
         }
 
